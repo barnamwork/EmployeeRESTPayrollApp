@@ -1,6 +1,14 @@
 package com.bridgelabz.addressbookapp.dto;
 
 public class AddressBookDTO {
-    public String name;
-    public String city;
+    private String name;
+    private String city;
+
+    public String getName() {
+        return name;
+    }
+
+    public String getCity() {
+        return city;
+    }
 }

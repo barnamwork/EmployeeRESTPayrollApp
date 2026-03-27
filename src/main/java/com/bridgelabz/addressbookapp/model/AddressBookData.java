@@ -10,8 +10,8 @@ public class AddressBookData {
 
     public AddressBookData(int id, AddressBookDTO dto) {
         this.id = id;
-        this.name = dto.name;
-        this.city = dto.city;
+        this.name = dto.getName();
+        this.city = dto.getCity();
     }
 
     public int getId() {
